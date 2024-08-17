@@ -2,7 +2,7 @@ class Word {
   constructor(word) {
     this.word = word;
   }
-
+ 
   removeVowels() {
     let vowels = "aeiouAEIOU";
     let newWord = "";
@@ -12,7 +12,7 @@ class Word {
         newWord += char;
       }
     }
-    return newWord;
+    return newWord; 
   }
 
   removeConsonants() {
